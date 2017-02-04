@@ -1,0 +1,23 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+// Navbar Styles
+
+// Body styles
+
+body { 
+    background: #000000 50%;
+    background: #5CFFF0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5CFFF0 , #5ED5E8 , #62C4FF , #5D92E8 , #647CFF ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5CFFF0 , #5ED5E8 , #62C4FF , #5D92E8 , #647CFF ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 70px; // due to navbar-fixed-top, give padding so items dont start out clipped by navbar
+}
+
+// Footer styles
+
+
+
+// cheat sheet
+// background: #5CFFF0; /* fallback for old browsers */
+// background: -webkit-linear-gradient(to left, #5CFFF0 , #647CFF); /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to left, #5CFFF0 , #647CFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
