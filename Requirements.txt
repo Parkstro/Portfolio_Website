@@ -1,0 +1,21 @@
+Pages and layout
+cohesive, modern style throughout
+pages need to include:
+* portfolio
+* about
+* contact
+
+Portfolio 
+web development should be at the top
+with Instagram account integration, then
+digital illustrations
+and paintings following
+
+About
+brief, where i'm from, what 'ive done, hobbies.
+
+contact
+include form to fill out
+form should have name, email, description, phone-number (can be left blank)
+also include twitter feed here
+handles for facebook and instagram as well
