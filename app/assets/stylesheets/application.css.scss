@@ -3,6 +3,10 @@
 
 // Navbar Styles
 
+.navbar-brand, .navbar-default {
+    font-family: 'Paytone One', sans-serif;
+}
+
 // Body styles
 
 body {
@@ -31,7 +35,12 @@ p {
     color: gray;
     line-height: 2;
 }
-// Footer styles
+
+label {
+    color: gray;
+    font-family: 'Paytone One', sans-serif;
+}
+// Font styles
 
 
 
