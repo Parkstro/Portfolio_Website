@@ -1,6 +1,7 @@
 class PicturesController < ApplicationController
     
-    def stella
+    def id
+        @picture = Picture.id
     end
     
 end
