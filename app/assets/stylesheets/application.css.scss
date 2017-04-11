@@ -47,11 +47,15 @@ label {
 // Font styles
 
 
-// stella page stuff
-.stella {
+// picture showing stuff
+.img-show {
     width: 100%;
+    border-radius: 5px;
 }
-
+ .expand {
+     width: 1000px;
+     background: grey 25%;
+ }
 .graye {
     color: gray;
 }

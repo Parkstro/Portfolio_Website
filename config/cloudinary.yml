@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: parkstro
+  api_key: '121914628899884'
+  api_secret: 4mcF9tBKKUxfjEepORyRI19oh-s
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: parkstro
+  api_key: '121914628899884'
+  api_secret: 4mcF9tBKKUxfjEepORyRI19oh-s
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: parkstro
+  api_key: '121914628899884'
+  api_secret: 4mcF9tBKKUxfjEepORyRI19oh-s
+  enhance_image_tag: true
+  static_image_support: false
