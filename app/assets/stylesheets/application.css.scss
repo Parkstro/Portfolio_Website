@@ -53,8 +53,14 @@ label {
     border-radius: 5px;
 }
  .expand {
+    display: inline-block;
+    position: fixed;
+    text-align: center;
      width: 1000px;
-     background: grey 25%;
+     background-color: black, 0.9;
+     
+     z-index: 9;
+     
  }
 .graye {
     color: gray;

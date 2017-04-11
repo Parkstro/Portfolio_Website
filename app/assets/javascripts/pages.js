@@ -1,11 +1,15 @@
 /* global $ */
 
-$(function expand()
-{ var picture = document.getElementById('expand')
-    $ ('img').on('click', function () {
-        if (picture.style.display === 'img-show') {
-            picture.style.display = 'block';
-        } else {
-            picture.style.display = 'expand';
+$(document).ready( function(){
+    $("img").click(function(){
+        $("img").animate({
+            display: 'block',
+            position: 'fixed',
+            align: 'center',
+            background: 'ffffff',
+            height: '750px',
+            width: '1000px',
+            zIndex: '9'
+        });
     });
 });
