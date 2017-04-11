@@ -38,6 +38,9 @@ Backtrace:
 /usr/local/rvm/gems/ruby-2.3.0@saasapp/bin/ruby_executable_hooks:15:in `eval'
 /usr/local/rvm/gems/ruby-2.3.0@saasapp/bin/ruby_executable_hooks:15:in `<main>'
 */
+/*
+ *= require jquery-ui
+ */
 body:before {
   white-space: pre;
   font-family: monospace;
