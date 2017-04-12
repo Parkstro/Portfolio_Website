@@ -1,18 +1,20 @@
 /* global $ */
 
 $(document).on('turbolinks:load', function(){
-    var small={ "width" : "100%", 
-                "borderRadius" : "5px", 
-                "zIndex" : "9"
+    var small={ 
+                display: "block",
+                position: "static",
+                width: "100%", 
+                borderRadius: "5px", 
+                zIndex: "9"
     };
                 
-    var large={  "display" : "inline-block",
-                 "position" : "absolute",
-                 "left" : "auto",
-                 "width" : "1000px",
-                 "backgroundColor" : "black, 0.9",
-     
-                 "zIndex" : "9"
+    var large={  display: "block",
+                 position: "absolute",
+                 width: "1000px",
+                 backgroundColor: "black",
+                 zIndex: "9",
+                 borderRadius: "5px"
      };
     var count=1;
     $("img").css(small).on('click', function(){

@@ -45,6 +45,7 @@ label {
     font-family: 'Paytone One', sans-serif;
 }
 
+
 .btn {
     font-family: 'Paytone One', sans-serif;
 }
@@ -53,6 +54,9 @@ label {
 
 // picture showing stuff
 
+.picture {
+    z-index: 9;
+}
 
 // cheat sheet
 // background: #5CFFF0; /* fallback for old browsers */

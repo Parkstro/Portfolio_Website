@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require_pages
 // UI Core
 //= require jquery-ui/core
 //= require jquery-ui/widget
