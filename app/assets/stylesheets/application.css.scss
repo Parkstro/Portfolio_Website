@@ -22,6 +22,10 @@ h1, h2, h3, {
     font-family: 'Paytone One', sans-serif;
 }
 
+.graye {
+    color: gray;
+}
+
 .thumbnail {
     height: 300px;
     width: 400px;
@@ -48,24 +52,8 @@ label {
 
 
 // picture showing stuff
-.img-show {
-    width: 100%;
-    border-radius: 5px;
-    z-index: 9;
-}
- .expand {
-    display: inline-block;
-    position: fixed;
-    text-align: center;
-     width: 1000px;
-     background-color: black, 0.9;
-     
-     z-index: 9;
-     
- }
-.graye {
-    color: gray;
-}
+
+
 // cheat sheet
 // background: #5CFFF0; /* fallback for old browsers */
 // background: -webkit-linear-gradient(to left, #5CFFF0 , #647CFF); /* Chrome 10-25, Safari 5.1-6 */
