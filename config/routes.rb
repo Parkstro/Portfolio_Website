@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   get 'screwed', to: 'pages#screwed'
   get 'dinosaurus', to: 'pages#dinosaurus'
   get 'mmm', to: 'pages#mmm'
+  get 'test', to: 'pages#test'
   # copypasta get '', to: 'pages#'
 end
