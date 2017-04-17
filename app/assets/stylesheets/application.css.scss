@@ -61,7 +61,38 @@ label {
 .img{
     margin-left: auto;
 }
-
+.small { 
+                display: block;
+                position: relative;
+                left: 0;
+                margin-left: 0;
+                color: transparent;
+                width: 100%;
+                border-radius: 5px; 
+                z-index: 9;
+    }
+    
+.large{  
+                display: block;
+                position: fixed;
+                left: 25%;
+                margin-left: -6.25em;
+                width: 125%;
+                color: rgba(0,0,0,0.8);
+                border-style: solid;
+                z-index: 9;
+                border-radius: 5px;
+     }
+.bgimg {
+    display: block;
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #000000;
+}
 // cheat sheet
 // background: #5CFFF0; /* fallback for old browsers */
 // background: -webkit-linear-gradient(to left, #5CFFF0 , #647CFF); /* Chrome 10-25, Safari 5.1-6 */
