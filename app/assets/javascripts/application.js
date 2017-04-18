@@ -15,8 +15,6 @@
 //= require turbolinks
 //= require_tree .
 //= require_pages
-//= require parallax
-//= require jquery.parallax
 // UI Core
 //= require jquery-ui/core
 //= require jquery-ui/widget

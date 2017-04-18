@@ -1,23 +1,6 @@
-<%= javascript_include_tag 'fourohfour', 'javascripts/parallax.js' %>
-<script>
-     // Pretty simple huh?
-     var scene = document.getElementById('fourohfour');
-     var parallax = new Parallax(fourohfour,{
-           calibrateX: false,
-           calibrateY: true,
-           invertX: false,
-           invertY: true,
-           limitX: false,
-           limitY: 10,
-           scalarX: 2,
-           scalarY: 8,
-           frictionX: 0.2,
-           frictionY: 0.8,
-           originX: 0.0,
-           originY: 1.0
-     });
-</script>
-<ul id="fourohfour">
+<script src="dist/parallax.js"></script>
+<div class="container">
+<ul id="scene">
   <li class="layer" data-depth="0.00"><h1>404 Error</h1><p>page not found... its probably near my car keys.</p></li>
   <li class="layer" data-depth="0.20"><%= image_tag("errors/me.png") %></li>
   <li class="layer" data-depth="0.40"><%= image_tag("errors/qm_blocky.png") %></li>
@@ -25,3 +8,4 @@
   <li class="layer" data-depth="0.80"><%= image_tag("errors/qm_key.png") %></li>
   <li class="layer" data-depth="1.00"><%= image_tag("errors/qm_rough.png") %></li>
 </ul>
+</div>

@@ -107,7 +107,6 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
-    parallax-rails (1.0.0)
     pg (0.18.4)
     puma (3.4.0)
     rack (2.0.1)
@@ -199,7 +198,6 @@ DEPENDENCIES
   jquery-ui-rails
   listen (= 3.0.5)
   paperclip
-  parallax-rails
   pg (= 0.18.4)
   puma (= 3.4.0)
   rails (= 5.0.0)

@@ -14,8 +14,6 @@ gem 'coffee-rails', '4.2.1'
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '4.1.1'
 gem 'jquery-ui-rails'
-#Use parallax for awesome pictures
-gem 'parallax-rails'
 
 gem 'paperclip'
 

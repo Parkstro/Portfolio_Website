@@ -27,7 +27,9 @@
   "bugs": "https://github.com/jquery/jquery-color/issues",
   "license": "MIT",
   "main": "jquery.color.js",
-  "dependencies": {},
+  "dependencies": {
+    "parallax-js": "^1.0.0"
+  },
   "peerDependencies": {
     "jquery": ">=1.11.0"
   },
