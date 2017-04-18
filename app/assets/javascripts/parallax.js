@@ -5,7 +5,8 @@
  *              driving the motion from the gyroscope output of a smartdevice.
  *              If no gyroscope is available, the cursor position is used.
  */
-;(function(window, document, undefined) {
+ /* global navigator cancelAnimationFrame */
+(function(document) {
 
   // Strict Mode
   'use strict';
@@ -493,7 +494,7 @@
       // Set Input
       this.ix = x;
       this.iy = y;
-  }
+  };
   Parallax.prototype.onDeviceOrientation = function(event) {
     // Validate environment and event properties.
     var beta = event.beta;
@@ -547,4 +548,4 @@
   // Expose Parallax
   window[NAME] = Parallax;
 
-})(window, document);
+})(document);

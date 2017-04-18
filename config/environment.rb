@@ -11,5 +11,6 @@ ActionMailer::Base.smtp_settings = {
 }
 ActionMailer::Base.delivery_method = :smtp
 
+
 # Initialize the Rails application.
 Rails.application.initialize!
