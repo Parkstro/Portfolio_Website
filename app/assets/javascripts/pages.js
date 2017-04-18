@@ -6,7 +6,6 @@ $(document).on('turbolinks:load', function(){
                 position: "relative",
                 left: "",
                 marginLeft: "",
-                color: "transparent",
                 width: "100%", 
                 borderRadius: "5px", 
                 zIndex: "9"
@@ -18,7 +17,6 @@ $(document).on('turbolinks:load', function(){
                 left: "25%",
                 marginLeft: "-6.25em",
                 width: "125%",
-                color: "rgba(0,0,0,0.8)",
                 borderstyle: "solid",
                 zIndex: "9",
                 borderRadius: "5px"
