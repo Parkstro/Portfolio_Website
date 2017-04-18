@@ -24,13 +24,11 @@ $(document).on('turbolinks:load', function(){
                 borderRadius: "5px"
      };
      
+     
     var count=1;
     
-    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-    
-    if(!isMobile) {
     jQuery(".col-md-8 > img").css(small).on('click', function(){
         jQuery(this).animate((count==1)?large:small);
         count = 1-count ;
     });
-}});
+});
