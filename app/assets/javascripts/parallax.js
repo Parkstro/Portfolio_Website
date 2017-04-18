@@ -6,7 +6,7 @@
  *              If no gyroscope is available, the cursor position is used.
  */
  /* global navigator cancelAnimationFrame */
-(function(document) {
+(function(window, document) {
 
   // Strict Mode
   'use strict';
@@ -548,4 +548,4 @@
   // Expose Parallax
   window[NAME] = Parallax;
 
-})(document);
+})(window, document);

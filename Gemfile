@@ -16,6 +16,9 @@ gem 'jquery-rails', '4.1.1'
 gem 'jquery-ui-rails'
 #Use parallax for awesome pictures
 gem 'parallax-rails'
+
+gem 'paperclip'
+
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

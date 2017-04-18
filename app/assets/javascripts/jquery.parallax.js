@@ -5,7 +5,10 @@
  *              driving the motion from the gyroscope output of a smartdevice.
  *              If no gyroscope is available, the cursor position is used.
  */
-(function(document) {
+ 
+/* golbal $ */
+
+(function(window, document) {
 
   // Strict Mode
   'use strict';
