@@ -1,6 +1,18 @@
 <script src="dist/parallax.js"></script>
-<div class="container">
-<ul id="scene">
+<div class="container parallax">
+<ul class="scene"  
+  data-calibrate-x="false"
+  data-calibrate-y="true"
+  data-invert-x="false"
+  data-invert-y="true"
+  data-limit-x="false"
+  data-limit-y="10"
+  data-scalar-x="2"
+  data-scalar-y="8"
+  data-friction-x="0.2"
+  data-friction-y="0.8"
+  data-origin-x="0.0"
+  data-origin-y="1.0">
   <li class="layer" data-depth="0.00"><h1>404 Error</h1><p>page not found... its probably near my car keys.</p></li>
   <li class="layer" data-depth="0.20"><%= image_tag("errors/me.png") %></li>
   <li class="layer" data-depth="0.40"><%= image_tag("errors/qm_blocky.png") %></li>
