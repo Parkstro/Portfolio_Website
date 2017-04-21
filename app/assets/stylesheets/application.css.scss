@@ -51,11 +51,45 @@ label {
 }
 // Parallax styles
 
-.scene {
+.fourohfour {
     padding: 0;
     margin: 0;
 }
 
+#fourmsg {
+    display: block;
+    text-align: center;
+    z-index: 9;
+    margin: auto;
+    width: 100%;
+    
+}
+
+#ghost {
+    displaY: inline-block;
+    text-align: center;
+    z-index: 8;
+}
+
+#qmblock {
+    margin-left: 70%;
+    
+}
+
+#qmround {
+    margin-left: 137px;
+    margin-top: 22%;
+}
+
+#qmkey {
+    margin-left: 346px;
+    margin-top: -10%;
+}
+
+#qmrough {
+    margin-left: 50%;
+    margin-top: 15%;
+}
 
 // picture showing stuff
 

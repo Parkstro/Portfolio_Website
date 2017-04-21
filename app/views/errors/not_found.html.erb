@@ -1,23 +1,23 @@
-<script src="dist/parallax.js"></script>
-<div class="container parallax">
-<ul class="scene"  
-  data-calibrate-x="false"
-  data-calibrate-y="true"
-  data-invert-x="false"
-  data-invert-y="true"
-  data-limit-x="false"
-  data-limit-y="10"
-  data-scalar-x="2"
-  data-scalar-y="8"
-  data-friction-x="0.2"
-  data-friction-y="0.8"
-  data-origin-x="0.0"
-  data-origin-y="1.0">
-  <li class="layer" data-depth="0.00"><h1>404 Error</h1><p>page not found... its probably near my car keys.</p></li>
-  <li class="layer" data-depth="0.20"><%= image_tag("errors/me.png") %></li>
-  <li class="layer" data-depth="0.40"><%= image_tag("errors/qm_blocky.png") %></li>
-  <li class="layer" data-depth="0.60"><%= image_tag("errors/qm_round.png") %></li>
-  <li class="layer" data-depth="0.80"><%= image_tag("errors/qm_key.png") %></li>
-  <li class="layer" data-depth="1.00"><%= image_tag("errors/qm_rough.png") %></li>
-</ul>
+
+<div class="container">
+  <div class="fourohfour">
+    <ul id="scene">
+      <div class="row col-md-12">
+      <li class="layer" id="ghost" data-depth="0.15"><%= image_tag("errors/me.png") %></li>
+      <li class="layer" id="qmblock" data-depth="0.40"><%= image_tag("errors/qm_blocky.png") %></li>
+      <li class="layer" id="qmround" data-depth="-0.30"><%= image_tag("errors/qm_round.png") %></li>
+      <li class="layer" id="qmkey" data-depth="0.80"><%= image_tag("errors/qm_key.png") %></li>
+      <li class="layer" id="qmrough" data-depth="-1.00"><%= image_tag("errors/qm_rough.png") %></li>
+      </div>
+      <div class="row col-md-12">
+      <li class="layer" id="fourmsg" data-depth="0.00"><h1>404 Error</h1><p>page not found... its probably near my car keys.</p></li>
+      </div>
+
+    </ul>
+  </div>
 </div>
+<%= javascript_include_tag 'parallax.min.js' %>
+<script>
+  var scene = document.getElementById('scene')
+  var parallax = new Parallax(scene)
+</script>
