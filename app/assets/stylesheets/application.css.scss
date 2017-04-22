@@ -50,7 +50,7 @@ label {
     font-family: 'Paytone One', sans-serif;
 }
 // Parallax styles
-
+// 404 page
 .fourohfour {
     padding: 0;
     margin: 0;
@@ -66,7 +66,7 @@ label {
 }
 
 #ghost {
-    displaY: inline-block;
+    display: block;
     text-align: center;
     z-index: 8;
 }
@@ -90,7 +90,30 @@ label {
     margin-left: 50%;
     margin-top: 15%;
 }
+//500 page
+#fivemsg {
+    display: block;
+    margin-right: 0px;
+    text-align: right;
+    color: white;
+    
+}
 
+#computer{
+    display: block;
+    margin: auto;
+    margin-left: 30%;
+    
+}
+
+#blownup {
+    margin-left: 0;
+    margin-top: 125px;
+}
+
+#blast {
+    margin-left: 0;
+}
 // picture showing stuff
 
 .picture {

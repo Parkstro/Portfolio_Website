@@ -1,2 +1,18 @@
-<h1>Errors#internal_server_error</h1>
-<p>Find me in app/views/errors/internal_server_error.html.erb</p>
+<div class="container">
+  <div class="fivehunnid">
+    <ul id="scene">
+      <div class="row col-md-12"> 
+      <li class="layer" id="fivemsg" data-depth="0.40"><h1>500 Error</h1><p>Oopsie! Something went wrong with your request</p></li>
+      <li class="layer" id="blast" data-depth="0.00"><%= image_tag("errors/backblast.png") %></li>
+      <li class="layer" id="blownup" data-depth="0.15"><%= image_tag("errors/me2.png") %></li>
+      <li class="layer" id="computer" data-depth="0.30"><%= image_tag("errors/computer.png") %></li>
+      </div>
+
+    </ul>
+  </div>
+</div>
+<%= javascript_include_tag 'parallax.min.js' %>
+<script>
+  var scene = document.getElementById('scene')
+  var parallax = new Parallax(scene)
+</script>
